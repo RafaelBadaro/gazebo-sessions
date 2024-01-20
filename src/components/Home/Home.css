@@ -1,18 +1,35 @@
-.home {
-    text-align: center;
-}
-
-.home-header {
-    background-color: var(--bone);
-    color: var(--bone);
+.home-background {
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
+    align-items: center;
+    position: relative;
+}
+
+.home-background::before {
+    content: '';
+    background-color: var(--bone);
     background-image: url('../../djs.gif');
-    background-size: 100% 100%;
-    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.8;
+}
+
+.home-background-content {
+    color: var(--bone);
+    text-align: center;
+    position: relative;
+    font-size: calc(10px + 2vmin);
     letter-spacing: 2px;
+}
+
+.link {
+    color: #61dafb;
+    margin-left: 5px;
 }
