@@ -10,7 +10,7 @@ import Footer from './components/Footer/Footer'
 function App() {
   return (
     <>
-      <BrowserRouter className="app">
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<MyNavBar />}>
             <Route index element={<Home />} />
