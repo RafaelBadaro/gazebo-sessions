@@ -1,3 +1,18 @@
+:root {
+  /*Color pallete*/
+  --reseda-green: #707140ff;
+  --bone: #ded2bcff;
+  --field-drab: #735b30ff;
+  --reseda-green-2: #6c723cff;
+  --khaki: #bfb398ff;
+}
+
+#root{
+  min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
 
@@ -6,6 +21,7 @@ body {
   font-family: 'Climate Crisis', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bone) !important;
 }
 
 code {
