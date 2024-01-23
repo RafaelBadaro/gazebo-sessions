@@ -1,12 +1,16 @@
+import Footer from '../Footer/Footer'
 
 
 function Sessions() {
-    return (
-      <div>
+  return (
+    <>
+      <div className="sessions-content custom-content-padding margin-top-auto">
         <h1>Sessions</h1>
       </div>
-    );
-  }
-  
-  export default Sessions;
-  
+      <Footer />
+    </>
+
+  );
+}
+
+export default Sessions;

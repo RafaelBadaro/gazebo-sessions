@@ -5,7 +5,7 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Sessions from './components/Sessions/Sessions';
 import Contact from './components/Contact/Contact';
-import Footer from './components/Footer/Footer'
+
 
 function App() {
   return (
@@ -20,7 +20,6 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-      <Footer />
     </>
   );
 }

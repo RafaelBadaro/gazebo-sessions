@@ -8,9 +8,10 @@
 }
 
 #root{
-  min-height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: var(--reseda-green)
 }
 
 
@@ -21,7 +22,6 @@ body {
   font-family: 'Climate Crisis', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--bone) !important;
 }
 
 code {
